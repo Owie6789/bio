@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Hey if you are reading this, you are probably not supposed
+    to be here or you are a wanna be hacker kid tryna look at my code,
+    well i was gonna obfuscate my code buh meh since you made it, it's
+    alr i guess: so hre are some easter eggs i guess, well for starters
+    the website focuses on me being Extraterrestrial cos i am ofc and so
+    coded this website took like 6 or 7 days (tht is prolly gonn age badly)
+    anyway, my point is it took some time to mke... waitt wtf am i even yapping
+    no one is prolly gonna see ts anyways mehhh- anyways bye now i ran out of
+    shi to say.. oh yh i was gonna say the easter egg well.. the website self
+    updates every year on my birthday which is on the 24th of december so yh
+    .holy yapppp ok i'm done now
+
+    -Owie out -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CLASSIFIED ALIEN DATABASE — SUBJECT: OWIE</title>
+    <link rel="icon" href="alien.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <style>
+body {
+    margin: 0;
+    background: #000;
+    font-family: "Pixelated MS Sans Serif", Arial, sans-serif !important;
+    overflow: hidden;
+    color: #00ff9c;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body:not(.desktop-active), body:not(.desktop-active) * {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 12 18"><polygon points="1,1 1,16 5,12 8,17 10,16 7,11 11,11" fill="%2300ff9c" stroke="%23000" stroke-width="1" stroke-linejoin="miter"/></svg>') 1 1, auto;
+}
+body:not(.desktop-active) button, body:not(.desktop-active) .hack-btn {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 12 18"><polygon points="1,1 1,16 5,12 8,17 10,16 7,11 11,11" fill="%23000" stroke="%2300ff9c" stroke-width="1.5" stroke-linejoin="miter"/></svg>') 1 1, pointer !important;
+}
+#desktop, .window, .window-body, .title-bar {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="48" viewBox="0 0 32 48"><polygon points="16,16 4,48 28,48" fill="%2300ff9c" opacity="0.15"/><polygon points="16,16 10,48 22,48" fill="%2300ff9c" opacity="0.3"/><path d="M10,14 Q16,4 22,14" fill="rgba(200,255,255,0.7)"/><ellipse cx="16" cy="14" rx="14" ry="4" fill="%23333"/><ellipse cx="16" cy="13" rx="14" ry="3.5" fill="%23555"/><circle cx="6" cy="14" r="1" fill="%2300ff9c"/><circle cx="11" cy="14.5" r="1.5" fill="%2300ff9c"/><circle cx="16" cy="15" r="2" fill="%2300ff9c"/><circle cx="21" cy="14.5" r="1.5" fill="%2300ff9c"/><circle cx="26" cy="14" r="1" fill="%2300ff9c"/></svg>') 16 14, auto;
+}
+#desktop button, #desktop .task, #desktop .start-item, #desktop .window .title-bar-controls button {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="48" viewBox="0 0 32 48"><polygon points="16,16 2,48 30,48" fill="%2300ff9c" opacity="0.3"/><polygon points="16,16 8,48 24,48" fill="%2300ff9c" opacity="0.5"/><path d="M10,14 Q16,4 22,14" fill="rgba(200,255,255,0.9)"/><ellipse cx="16" cy="14" rx="14" ry="4" fill="%23111"/><ellipse cx="16" cy="13" rx="14" ry="3.5" fill="%23888"/><circle cx="6" cy="14" r="1" fill="%23fff"/><circle cx="11" cy="14.5" r="1.5" fill="%23fff"/><circle cx="16" cy="15" r="2" fill="%23fff"/><circle cx="21" cy="14.5" r="1.5" fill="%23fff"/><circle cx="26" cy="14" r="1" fill="%23fff"/></svg>') 16 14, pointer !important;
+}
+
+body.desktop-active.dragging, body.desktop-active.dragging * {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="48" viewBox="0 0 32 48"><polygon points="16,8 0,48 32,48" fill="%2300ff9c" opacity="0.4"/><polygon points="16,8 8,48 24,48" fill="%2300ff9c" opacity="0.8"/><path d="M10,6 Q16,-4 22,6" fill="rgba(255,255,255,1)"/><ellipse cx="16" cy="6" rx="14" ry="4" fill="%23111"/><ellipse cx="16" cy="5" rx="14" ry="3.5" fill="%23555" stroke="%23fff" stroke-width="1.5"/><circle cx="6" cy="6" r="1" fill="%23fff"/><circle cx="11" cy="6.5" r="1.5" fill="%23fff"/><circle cx="16" cy="7" r="2" fill="%23fff"/><circle cx="21" cy="6.5" r="1.5" fill="%23fff"/><circle cx="26" cy="6" r="1" fill="%23fff"/></svg>') 16 46, grabbing !important;
+}
+
+@media (pointer: coarse) {
+    #desktop, #desktop *, body, body * { cursor: auto !important; }
+}
+.blink-cursor {
+    animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+#terminal {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #00ff9c;
+    text-shadow: 0 0 8px #00ff9c;
+    z-index: 20000;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+#desktop {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    background-image: radial-gradient(rgba(0, 255, 156, 0.08) 1px, transparent 1px);
+    background-size: 28px 28px;
+}
+#desktop::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(rgba(0, 255, 156, 0.5) 1px, transparent 1px);
+    background-size: 28px 28px;
+    -webkit-mask-image: radial-gradient(circle at var(--mx, -100px) var(--my, -100px), black 0%, rgba(0,0,0,0.3) 100px, transparent 180px);
+    mask-image: radial-gradient(circle at var(--mx, -100px) var(--my, -100px), black 0%, rgba(0,0,0,0.3) 100px, transparent 180px);
+    filter: drop-shadow(0 0 3px rgba(0, 255, 156, 0.6));
+    z-index: 1;
+}
+
+.window {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-color: #c0c0c0 #404040 #404040 #c0c0c0;
+    box-shadow: 0 0 20px rgba(0, 255, 156, 0.5);
+    max-width: 95vw;
+    max-height: 85vh;
+    overflow: hidden;
+}
+
+.window .title-bar {
+    cursor: move;
+    background: linear-gradient(to right, #000080, #1084d0) !important;
+    padding: 8px 6px 8px 10px;
+}
+.window .title-bar .title-bar-text {
+    color: #fff !important;
+    font-weight: bold !important;
+    font-family: "Pixelated MS Sans Serif", Arial, sans-serif !important;
+    font-size: 11px !important;
+    text-shadow: none !important;
+    flex-grow: 1;
+    letter-spacing: 0 !important;
+}
+.window .title-bar-controls button { cursor: pointer; }
+
+.window-body {
+    background: #001a0f !important;
+    color: #00ff9c !important;
+    padding: 12px 14px;
+    font-size: 13px;
+    line-height: 1.6;
+    text-shadow: 0 0 3px rgba(0, 255, 156, 0.5);
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    flex-grow: 1;
+}
+.window-body pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+}
+.window-body img {
+    max-width: 100%;
+}
+.window-body h2 {
+    margin: 0 0 10px 0;
+    font-size: 38px !important;
+    font-family: "Pixelated MS Sans Serif", Arial, sans-serif !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 255, 156, 0.3);
+    padding-bottom: 6px;
+    color: #00ff9c;
+    text-shadow: 0 0 12px rgba(0, 255, 156, 0.8);
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+.window-body h3 {
+    margin: 0 0 10px 0;
+    font-size: 26px !important;
+    font-family: "Pixelated MS Sans Serif", Arial, sans-serif !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 255, 156, 0.3);
+    padding-bottom: 6px;
+    color: #00ff9c;
+    line-height: 1.1;
+}
+.window-body p { margin: 5px 0; }
+.window-body ul {
+    margin: 4px 0;
+    padding-left: 16px;
+    list-style: square;
+}
+.window-body hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 255, 156, 0.2);
+    margin: 10px 0;
+}
+
+.window.active-window .title-bar-text {
+    animation: activeTitleGlow 3s ease-in-out infinite;
+}
+
+#win1 { width: 500px; top: 80px; left: 40%; transform: translateX(-60%); z-index: 1; }
+#win2 { width: 300px; top: 10px; left: 60%; z-index: 4; }
+#win3 { width: 280px; top: 100px; left: 65%; transform: translateX(-20%); z-index: 2; }
+#win4 { width: 400px; top: 220px; left: 75%; transform: translateX(-20%); z-index: 2; padding: 10px; }
+#win5 { width: 350px; top: 150px; left: 13%; transform: translateX(-50%); z-index: 5; }
+#win6 { width: 350px; top: 100px; left: 85%; transform: translateX(-50%); z-index: 5; }
+
+#hack-menu {
+  position: absolute;
+  top: 30px; left: 0; width: 100%;
+  text-align: center;
+  z-index: 100000;
+  font-family: "Pixelated MS Sans Serif", Arial, sans-serif;
+  color: #00ff9c;
+}
+.hack-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #002211;
+  border: 2px outset #00ff9c;
+  cursor: pointer;
+  text-shadow: 0 0 5px #00ff9c;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+.hack-btn:hover {
+  background: #00ff9c;
+  color: #000;
+  text-shadow: none;
+  transform: scale(1.05);
+}
+
+.main-image {
+    max-width: 90%;
+    max-height: 260px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px;
+    border: 2px inset rgba(0, 255, 156, 0.3);
+    -webkit-user-drag: none;
+    image-rendering: pixelated;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.main-image:hover {
+    transform: scale(1.2);
+    position: relative;
+    z-index: 1000;
+}
+
+.threat {
+    color: #ff3030;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff3030;
+}
+.outrageous {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 8px #fff;
+}
+
+.redacted {
+    background: #00ff9c;
+    color: #00ff9c;
+    cursor: help;
+    padding: 0 3px;
+    transition: background 0.3s, color 0.3s, text-shadow 0.3s;
+    font-weight: bold;
+}
+.redacted:hover {
+    background: transparent;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
+.ultra-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #00ff9c;
+    color: #000 !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 2px 6px;
+    text-shadow: none !important;
+    transition: background 0.2s;
+}
+.ultra-link:hover { background: #fff; }
+.ultra-link svg { width: 11px; height: 11px; fill: #000; flex-shrink: 0; }
+
+#win6 .window-body {
+  padding: 10px !important;
+  background: #001a0f !important;
+}
+
+#win6 .blinkies {
+  display: flex;
+  flex-wrap: wrap;   
+  gap: 1px;          
+  justify-content: center;
+}
+
+#win6 .blinkies img {
+  width: calc((100% - 1px) / 2);  
+  flex: 0 0 calc((100% - 1px) / 2);
+  height: auto;
+  border: none;
+  box-sizing: border-box;
+  image-rendering: pixelated;
+}
+
+.gifypet-wrapper {
+    background: #00150d;
+    color: #fff;
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    width: 100%;
+    user-select: none;
+}
+.gp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px dashed #00ff00;
+    border-bottom: none;
+}
+.gp-cell {
+    border-right: 1px dashed #00ff00;
+    border-bottom: 1px dashed #00ff00;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+.gp-main {
+    display: flex;
+    border: 1px dashed #00ff00;
+    border-top: none;
+    height: 200px;
+}
+.gp-scene {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(#001133, #003366 60%, #446622 60%, #113311);
+    overflow: hidden;
+    border-right: 1px dashed #00ff00;
+}
+.gp-stars {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 25px 25px;
+    opacity: 0.4;
+    height: 60%;
+}
+.gp-sprite {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 44px;
+    text-shadow: 2px 2px 0 #000;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.gp-name {
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: inherit;
+    text-shadow: 1px 1px 0 #000;
+}
+.gp-sidebar {
+    width: 90px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.gp-shop-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    margin: 4px 0 8px;
+}
+.gp-shop-grid span { cursor: pointer; text-align: center; font-size: 15px; }
+.gp-btn {
+    background: #f0f0f0;
+    color: #999;
+    border: 2px outset #fff;
+    padding: 2px;
+    text-align: center;
+    font-family: "Pixelated MS Sans Serif", Arial;
+    font-size: 11px;
+    margin-bottom: 3px;
+    text-shadow: none;
+}
+.gp-btn.active {
+    color: #000;
+    cursor: pointer;
+}
+.gp-btn.active:active { border-style: inset; }
+.gp-log {
+    border: 1px dashed #00ff00;
+    border-top: none;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    font-family: monospace;
+    font-size: 11px;
+    padding: 4px;
+    overflow-y: scroll;
+    text-shadow: none;
+}
+.gp-footer {
+    font-size: 11px;
+    text-align: left;
+    margin-top: 2px;
+}
+.gp-footer a { color: #fff; text-decoration: underline; }
+
+#taskbar {
+  position: fixed;
+  bottom: 0; left: 0;
+  width: 100%;
+  height: 32px;
+  background: linear-gradient(#002912, #001509);
+  border-top: 2px solid #004b2b;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  z-index: 9999;
+  color: #00ff9c;
+  box-shadow: 0 -2px 10px #00ff9c80;
+}
+
+#start-button {
+  width: 65px;
+  height: 26px;
+  background: #003d1d;
+  border: 2px outset #004b2b;
+  color: #00ff9c;
+  font-weight: bold;
+  text-shadow: 0 0 4px #00ff9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.task {
+  background: #002110;
+  border: 2px outset #004b2b;
+  padding: 4px 10px;
+  margin-right: 4px;
+  cursor: pointer;
+  color: #00ff9c;
+  text-shadow: 0 0 3px #00ff9c;
+  font-family: inherit;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+#clock {
+  margin-left: auto;
+  padding: 0 10px;
+  color: #00ff9c;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+#start-menu {
+  position: fixed;
+  bottom: 32px; /* just above taskbar */
+  left: 0;
+  width: 200px;
+  background: #001a0f;
+  border: 4px solid #c0c0c0;
+  box-shadow: 0 0 15px #00ff9c;
+  color: #00ff9c;
+  font-family: inherit;
+  padding: 10px;
+  display: none;
+  z-index: 10000;
+}
+
+#start-menu-header {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 255, 156, 0.3);
+  padding-bottom: 4px;
+}
+
+.start-item {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-bottom: 3px;
+  transition: background 0.2s, border 0.2s;
+  font-size: 12px;
+}
+
+.start-item:hover {
+  background: #004422;
+  border: 1px solid #00ff9c;
+}
+.start-sep { border-top: 1px solid rgba(0, 255, 156, 0.2); margin: 4px 0; }
+.cmd-prompt { color: rgba(0,255,156,0.5); font-size: 11px; margin-right: 4px; flex-shrink: 0; }
+
+body.locked #desktop {
+    filter: blur(10px) brightness(0.2);
+    pointer-events: none;
+}
+body.locked #security-overlay {
+    display: flex;
+}
+#security-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 15, 5, 0.85);
+    z-index: 99000; /* under scanlines so it gets filtered */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #00ff9c;
+    text-align: center;
+    text-shadow: 0 0 10px #00ff9c;
+}
+.caution-sign {
+    width: 100px;
+    height: 100px;
+    color: #ff3030;
+    filter: drop-shadow(0 0 15px #ff3030);
+    margin-bottom: 20px;
+}
+#skip-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20005;
+    background: rgba(0, 34, 17, 0.4);
+    border: 1px solid #00ff9c;
+    color: #00ff9c;
+    padding: 6px 12px;
+    font-family: inherit;
+    font-size: 11px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+#skip-btn:hover {
+    opacity: 1;
+    background: rgba(0, 255, 156, 0.15);
+}
+#skip-btn:active {
+    transform: scale(0.95);
+    opacity: 0.8;
+}
+.access-denied {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.red-text { color: #ff3030; text-shadow: 0 0 10px #ff3030; }
+.go-back-btn {
+    position: absolute;
+    bottom: 50px;
+    padding: 12px 24px;
+    background: #002211;
+    border: 3px outset #00ff9c;
+    color: #00ff9c;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00ff9c;
+    transition: all 0.2s;
+}
+.go-back-btn:active {
+    border-style: inset;
+    background: #001108;
+}
+
+    @media screen and (max-width: 768px) {
+        #win1, #win2, #win3, #win4, #win5, #win6 {
+            transform: translateX(-50%);
+        }
+        #win5 { left: 42%; top: 20px; height: auto; }
+        #win6 { left: 58%; top: 50px; }
+        #win3 { left: 45%; top: 80px; }
+        #win4 { left: 55%; top: 110px; }
+        #win2 { left: 48%; top: 140px; }
+        #win1 { left: 50%; top: 170px; }
+
+        #taskbar { 
+            overflow-x: auto; 
+            justify-content: flex-start; 
+            padding-right: 15px; 
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        #taskbar::-webkit-scrollbar { display: none; }
+        #start-menu { width: 85%; }
+        .gp-scene { height: 130px; border-right: none; border-bottom: 1px dashed #00ff00; }
+        .gp-main { flex-direction: column; height: auto; }
+        .gp-sidebar { width: auto; padding: 6px; }
+        .gp-shop-grid span { font-size: 20px; }
+        .gp-grid { grid-template-columns: 1fr 1fr !important; }
+        .gp-cell { border-right: 1px dashed #00ff00 !important; }
+        .gp-cell:nth-child(2n) { border-right: none !important; }
+        .caution-sign { font-size: 70px !important; }
+        .access-denied { font-size: 28px !important; margin-bottom: 40px !important; }
+        .go-back-btn { font-size: 13px !important; padding: 12px 16px !important; bottom: 30px !important; }
+    }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+<div id="hack-menu">
+    <span class="hack-btn" onclick="triggerAutoHack()">&#9654; AUTO-HACK (PLAY)</span>
+    <span id="hack-divider" style="margin: 0 15px; opacity: 0.5;">||</span>
+    <span id="manual-hack-btn" class="hack-btn" style="cursor:default; border-style:dashed; background:transparent; color:#00ff9c;">TYPE ANY KEY TO MANUAL HACK</span>
+</div>
+<div id="terminal"></div>
+<div id="skip-btn" onclick="finishBoot()">
+    SKIP ANIMATION <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+</div>
+<div id="security-overlay" onclick="document.body.classList.remove('locked')" style="cursor: pointer;">
+    <div class="caution-sign">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+            <line x1="12" y1="9" x2="12" y2="13"></line>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+    </div>
+    <div class="access-denied"><span class="red-text">VIEW</span> ACCESS DENIED</div>
+    <button class="go-back-btn">Click to go back and view classified files</button>
+</div>
+<div id="desktop">
+    <div class="window" id="win1">
+        <div class="title-bar">
+            <div class="title-bar-text">CLASSIFIED_INFO.sys</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body">
+            <h2>[ LEVEL 7 CLEARANCE ONLY ]</h2>
+            <img class="main-image" src="main.png" alt="Subject Profile">
+            <p>Subject Name: <b>owie</b></p>
+            <p>Species: <b>Extraterrestrial</b></p>
+            <p>Threat Rating: <b><span class="threat">&#9608;&#9608;&#9608; UNKNOWN — CRITICAL</span></b></p>
+        </div>
+    </div>
+    <div class="window" id="win2">
+        <div class="title-bar">
+            <div class="title-bar-text">bio_scan.exe</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body">
+            <h3>Bio-Scan Report</h3>
+            <p>Subject: <b>owie</b></p>
+            <p>Age: <b id="subj-age"></b></p>
+            <p>Territory: <b>Nigeria</b></p>
+            <p>Origin: <b>Benin City</b></p>
+            <p>MINDSET: <b>INTJ — Architect</b></p>
+            <p><b>AKA:</b> nuel &bull; owie.exists &bull; nuel.exists &bull; nuelgoeshard &bull; <span class="redacted" title="Hover to decrypt">Itz6789Playz</span></p>
+            <hr>
+            <p>OBSERVATIONS:</p>
+            <ul>
+                <li>Moderate creativity level</li>
+                <li>High-end programming proficiency</li>
+                <li>Humor detected — low frequency</li>
+                <li>Nonchalant frequency: <span class="outrageous">OUTRAGEOUS</span></li>
+            </ul>
+            <hr>
+            <p>SUGGESTED PROTOCOL: Engage with caution. Avoid unnecessary attempts at humor.</p>
+        </div>
+    </div>
+    <div class="window" id="win3">
+        <div class="title-bar">
+            <div class="title-bar-text">more_info.txt</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body">
+            <h3>&gt;&gt;&gt; PERSONAL INTERESTS LOGGED</h3>
+            <p>&#8212; Entertainment: Sustained Deep-Logic Syntax Synthesis &amp; Kernel Optimization.</p>
+            <p>&#8212; Audio Stimulation:&nbsp;
+                <a href="https://open.spotify.com/playlist/1aT9dvTt6jFJU29d1Mzhh8?si=3eef3e79553143bc"
+                   target="_blank" rel="noopener" class="ultra-link">
+                    <svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                    ULTRA+
+                </a>
+            </p>
+            <p>&#8212; Rest Protocol: Systematic Hibernation (Sleeping).</p>
+            <p>&#8212; Creative Output: Logic-branching (Coding), Data-Input (Reading), Existing.</p>
+            <hr>
+            <p style="font-size:12px;font-style:italic;opacity:0.8;">Subject demonstrates anomalous cognitive throughput in digital architectures, characterized by a preference for non-standard UI/UX paradigms and high-latency social interaction.</p>
+        </div>
+    </div>
+    <div class="window" id="win4">
+        <div class="title-bar">
+            <div class="title-bar-text">extra_evidence.log</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body">
+            <h3>Recovered Files</h3>
+            <p>Attached evidence below. [subject in natural habitat]</p>
+            <img class="main-image" src="baby.png" alt="Secondary Evidence">
+        </div>
+    </div>
+    <div class="window" id="win5">
+        <div class="title-bar">
+            <div class="title-bar-text">glerpo.exe</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body" style="padding:4px;background:#00150d !important;">
+            <div class="gifypet-wrapper">
+                <div class="gp-grid">
+                    <div class="gp-cell">Name: <b>bob</b><span style="color:#66ccff">♂</span></div>
+                    <div class="gp-cell">Born: <b>11-2025</b></div>
+                    <div class="gp-cell" style="border-right:0;">⚡: <b>Water</b></div>
+                    <div class="gp-cell">Mood: <span id="gp-mood">💖</span></div>
+                    <div class="gp-cell">Belly: <span id="gp-belly">🍖🍖</span></div>
+                    <div class="gp-cell" style="border-right:0;">Coins: <span id="gp-coins">31</span></div>
+                </div>
+                <div class="gp-main">
+                    <div class="gp-scene">
+                        <div class="gp-stars"></div>
+                        <div class="gp-name">bob</div>
+                        <div class="gp-sprite" id="gp-sprite" onclick="interactPet('poke')">🤖</div>
+                    </div>
+                    <div class="gp-sidebar">
+                        <b>Shop: (5c)</b>
+                        <div class="gp-shop-grid">
+                            <span title="Burger" onclick="feedPet('🍔')">🍔</span>
+                            <span title="Chicken" onclick="feedPet('🍗')">🍗</span>
+                            <span title="Soda" onclick="feedPet('🥤')">🥤</span>
+                            <span title="Bread" onclick="feedPet('🍞')">🍞</span>
+                            <span title="Cupcake" onclick="feedPet('🧁')">🧁</span>
+                            <span title="Icecream" onclick="feedPet('🍦')">🍦</span>
+                        </div>
+                        <b style="line-height:0.9;">Actions:</b>
+                        <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:flex-end;">
+                            <div class="gp-btn active" onclick="interactPet('hello')">Hello</div>
+                            <div class="gp-btn">Slots</div>
+                            <div class="gp-btn active" onclick="interactPet('wash')">Wash 10c</div>
+                            <div class="gp-btn">Party 20c</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gp-log" id="gp-log">
+                    <div>bob: I WILL EAT IT!</div>
+                    <div>bob: I think your a swell person</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="window" id="win6">
+        <div class="title-bar">
+            <div class="title-bar-text">glerpis.exe</div>
+            <div class="title-bar-controls"><button aria-label="Close"></button></div>
+        </div>
+        <div class="window-body" style="padding:6px;">
+            <div class="blinkies">
+                <img src="https://renwu.neocities.org/aliens-iy.gif" alt="">
+                <img src="https://renwu.neocities.org/bi-3h.gif" alt="">
+                <img src="https://renwu.neocities.org/alpha.gif" alt="">
+                <img src="https://renwu.neocities.org/cool alien.gif" alt="">
+                <img src="https://renwu.neocities.org/a11.gif" alt="">
+                <img src="https://renwu.neocities.org/u1.gif" alt="">
+                <img src="https://renwu.neocities.org/alin.gif" alt="">
+                <img src="https://renwu.neocities.org/d5.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="taskbar">
+        <div id="start-button">&#9733; START</div>
+        <div class="task" data-target="win1">info.sys</div>
+        <div class="task" data-target="win2">bio_scan</div>
+        <div class="task" data-target="win3">more_info</div>
+        <div class="task" data-target="win4">evidence</div>
+        <div class="task" data-target="win5">glerpo</div>
+        <div class="task" data-target="win6">glerpis</div>
+        <div id="clock">00:00</div>
+    </div>
+    <div id="start-menu">
+        <div id="start-menu-header">&#9608; CLASSIFIED LINKS</div>
+        <div class="start-item" data-link="https://discord.com/users/1366875256471687323">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M20.3 4.3C18.8 3.6 17.1 3.1 15.4 3c-.2.4-.4.8-.6 1.2-1.8-.3-3.7-.3-5.5 0-.2-.4-.4-.8-.6-1.2-1.7.1-3.4.6-4.9 1.3-3.1 4.6-4 9.1-3.5 13.5 2.1 1.5 4.1 2.5 6.1 3.1.5-.7 1-1.4 1.3-2.2-2.1-.8-4.1-1.9-5.9-3.3.1.1.2.2.4.3 4.1 1.9 8.7 1.9 12.8 0 .1-.1.3-.2.4-.3-1.8 1.4-3.8 2.5-5.9 3.3.4.8.8 1.5 1.3 2.2 2-.6 3.9-1.6 6.1-3.1.6-5.1-.9-9.6-3.7-13.5zm-11.4 10.7c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm7.6 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></svg>
+            Discord
+        </div>
+        <div class="start-item" data-link="https://open.spotify.com/user/31snulaeymipi7wp4gqwu3dhgytq?si=9c930e7a82b24d5f">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.5 17.3c-.2.4-.7.5-1.1.3-2.6-1.6-5.8-1.9-9.6-1-.5.1-.9-.2-1-.7s.2-.9.7-1c4.2-1 7.8-.6 10.7 1.2l.3 1.2zm1.4-3.3c-.3.5-1 .6-1.5.3-3-1.9-7.5-2.4-11-1.4-.6.2-1.2-.2-1.4-.8s.2-1.2.8-1.4c4.1-1.2 9.1-.6 12.5 1.5.6.3.8 1 .6 1.8zm.1-3.4C15.1 8.3 8.7 8.1 5.1 9.2c-.6.2-1.4-.2-1.6-.8s.2-1.4.8-1.6c4.2-1.3 11.4-1 16.2 1.8.6.4.8 1.2.5 1.8-.3.7-1.1.9-1.5.6l-.1.4z"/></svg>
+            Spotify
+        </div>
+        <div class="start-item" data-link="https://open.spotify.com/playlist/1aT9dvTt6jFJU29d1Mzhh8?si=3eef3e79553143bc">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.5 17.3c-.2.4-.7.5-1.1.3-2.6-1.6-5.8-1.9-9.6-1-.5.1-.9-.2-1-.7s.2-.9.7-1c4.2-1 7.8-.6 10.7 1.2l.3 1.2zm1.4-3.3c-.3.5-1 .6-1.5.3-3-1.9-7.5-2.4-11-1.4-.6.2-1.2-.2-1.4-.8s.2-1.2.8-1.4c4.1-1.2 9.1-.6 12.5 1.5.6.3.8 1 .6 1.8zm.1-3.4C15.1 8.3 8.7 8.1 5.1 9.2c-.6.2-1.4-.2-1.6-.8s.2-1.4.8-1.6c4.2-1.3 11.4-1 16.2 1.8.6.4.8 1.2.5 1.8-.3.7-1.1.9-1.5.6l-.1.4z"/></svg>
+            Spotify Playlist
+        </div>
+        <div class="start-item" data-link="https://github.com/Owie6789">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M12 0c-6.6 0-12 5.4-12 12 0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2 1-.3 2-.4 3-.4s2 .1 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.8-1.6 8.2-6.1 8.2-11.4 0-6.6-5.4-12-12-12z"/></svg>
+            GitHub
+        </div>
+        <div class="start-item" data-link="mailto:owieemmanuel34@gmail.com">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:8px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            Email
+        </div>
+        <div class="start-sep"></div>
+        <div class="start-item" id="about-trigger">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:8px;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            About Owie
+        </div>
+    </div>
+
+</div>
+<script>
+var term = document.getElementById('terminal');
+var desk = document.getElementById('desktop');
+var hackMenu = document.getElementById('hack-menu');
+var lines = [
+    'INITIALIZING CLASSIFIED_WEB_NODE...',
+    'CONNECTING TO ANONYMOUS RELAY...',
+    'ENCRYPTION: ENABLED [AES-8192]',
+    'BREACHING CLASSIFIED FILE SERVER...',
+    '',
+    'ACCESS LEVEL: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588',
+    'VERIFICATION: OVERRIDDEN.',
+    '',
+    'ACCESS GRANTED.',
+    '',
+    'WARNING: UNRECOGNIZED SIGNATURE DETECTED.',
+    'THREAT RATING: \u2588\u2588\u2588 UNKNOWN \u2014 CRITICAL.',
+    '',
+    'CLASSIFIED ALIEN FILES ONLINE.',
+    'VIEW WITH CAUTION.'
+];
+var lineIdx = 0;
+var charIdx = 0;
+var currentText = '';
+var bootMode = null; // 'auto' or 'manual'
+
+function finishBoot() {
+    setTimeout(function() {
+        term.style.display = 'none';
+        if (hackMenu) hackMenu.style.display = 'none';
+        var skip = document.getElementById('skip-btn');
+        if (skip) skip.style.display = 'none';
+        desk.style.display = 'block';
+        var stackOrder = ['win5', 'win6', 'win3', 'win4', 'win2', 'win1'];
+        stackOrder.forEach(function(winId) {
+            var w = document.getElementById(winId);
+            if (w) front(w);
+        });
+        var mainWin = document.getElementById('win1');
+        if (mainWin) makeActive(mainWin);
+    }, 600);
+}
+
+function typeNext() {
+    if (lineIdx < lines.length) {
+        if (charIdx === 0) {
+            setTimeout(typeChar, 80);
+        } else {
+            typeChar();
+        }
+    } else {
+        finishBoot();
+    }
+}
+
+function renderTerminal() {
+    var display = currentText.replace('CAUTION', '<span class="threat">CAUTION</span>');
+    term.innerHTML = display + '<span class="blink-cursor">&#9608;</span>';
+    term.scrollTop = term.scrollHeight;
+}
+
+function typeChar() {
+    if (bootMode !== 'auto') return;
+    var line = lines[lineIdx];
+    if (charIdx < line.length) {
+        currentText += line.charAt(charIdx);
+        charIdx++;
+        renderTerminal();
+        setTimeout(typeChar, 10 + Math.random() * 20);
+    } else {
+        currentText += '\n';
+        charIdx = 0;
+        lineIdx++;
+        renderTerminal();
+        setTimeout(typeNext, 200 + Math.random() * 200);
+    }
+}
+
+window.triggerAutoHack = function() {
+    if (bootMode) return;
+    bootMode = 'auto';
+    if (hackMenu) hackMenu.style.display = 'none';
+    typeNext();
+};
+
+var pendingChars = 0;
+var isManualTyping = false;
+
+function doManualType() {
+    if (lineIdx === 8 && charIdx === 0) {
+        bootMode = 'auto';
+        isManualTyping = false;
+        pendingChars = 0;
+        setTimeout(typeNext, 600);
+        return;
+    }
+
+    if (pendingChars <= 0) {
+        isManualTyping = false;
+        return;
+    }
+    if (lineIdx >= lines.length) {
+        finishBoot();
+        return;
+    }
+    
+    var line = lines[lineIdx];
+    if (charIdx < line.length) {
+        currentText += line.charAt(charIdx);
+        charIdx++;
+        pendingChars--;
+        renderTerminal();
+        setTimeout(doManualType, 10 + Math.random() * 15);
+    } else {
+        currentText += '\n';
+        charIdx = 0;
+        lineIdx++;
+        renderTerminal();
+        setTimeout(doManualType, 80 + Math.random() * 80);
+    }
+}
+
+window.addEventListener('keydown', function(e) {
+    if (desk.style.display === 'block') return;
+    if (bootMode === 'auto') return;
+    bootMode = 'manual';
+    if (hackMenu) hackMenu.style.display = 'none';
+    pendingChars += 5; 
+    if (!isManualTyping) {
+        isManualTyping = true;
+        doManualType();
+    }
+});
+
+term.innerHTML = '<span class="blink-cursor">&#9608;</span>';
+var isMobileOrTouch = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+if (isMobileOrTouch) {
+    var hm = document.getElementById('hack-menu');
+    if (hm) hm.style.display = 'none';
+    setTimeout(triggerAutoHack, 500);
+}
+function getAge() {
+    var b = new Date('2009-12-24'), n = new Date();
+    var a = n.getFullYear() - b.getFullYear();
+    var m = n.getMonth() - b.getMonth();
+    if (m < 0 || (m === 0 && n.getDate() < b.getDate())) a--;
+    return a;
+}
+var ageEl = document.getElementById('subj-age');
+if (ageEl) ageEl.innerText = getAge();
+var _z = 10;
+function front(el) { _z++; el.style.zIndex = _z; }
+function makeDraggable(win) {
+    function startDrag(clientX, clientY, isTouch, target) {
+        if (target.closest('.title-bar-controls')) return;
+        
+        if (isTouch) {
+            if (!target.closest('.title-bar')) return;
+        } else {
+            if (target.closest('.window-body')) return;
+        }
+
+        var ox = clientX - win.offsetLeft;
+        var oy = clientY - win.offsetTop;
+        front(win);
+        makeActive(win);
+
+        function move(nx, ny) {
+            var minX = -win.offsetWidth + 40;
+            var maxX = window.innerWidth - 40;
+            var minY = 0;
+            var maxY = window.innerHeight - 50;
+
+            var newX = Math.max(minX, Math.min(nx - ox, maxX));
+            var newY = Math.max(minY, Math.min(ny - oy, maxY));
+            win.style.left = newX + 'px';
+            win.style.top  = newY + 'px';
+        }
+
+        if (isTouch) {
+            var tm = function(e2) {
+                e2.preventDefault();
+                if (e2.touches.length > 0) move(e2.touches[0].clientX, e2.touches[0].clientY);
+            };
+            var te = function() {
+                document.removeEventListener('touchmove', tm, {passive: false});
+                document.removeEventListener('touchend', te);
+            };
+            document.addEventListener('touchmove', tm, {passive: false});
+            document.addEventListener('touchend', te);
+        } else {
+            document.body.classList.add('dragging');
+            document.onmousemove = function(e2) {
+                move(e2.clientX, e2.clientY);
+            };
+            document.onmouseup = function() {
+                document.body.classList.remove('dragging');
+                document.onmousemove = null;
+                document.onmouseup  = null;
+            };
+        }
+    }
+
+    win.onmousedown = function(e) { startDrag(e.clientX, e.clientY, false, e.target); };
+    win.addEventListener('touchstart', function(e) {
+        if (e.touches.length > 0) startDrag(e.touches[0].clientX, e.touches[0].clientY, true, e.target);
+    }, {passive: false});
+}
+
+function makeActive(win) {
+    document.querySelectorAll('.window').forEach(function(w) {
+        w.classList.remove('active-window');
+    });
+    win.classList.add('active-window');
+}
+
+document.querySelectorAll('.window').forEach(function(w) {
+    makeDraggable(w);
+    w.addEventListener('mousedown', function() { front(w); makeActive(w); });
+    var btn = w.querySelector('button[aria-label="Close"]');
+    if (btn) btn.onclick = function() { w.style.display = 'none'; };
+});
+var mainWin = document.getElementById('win1');
+if (mainWin) makeActive(mainWin);
+document.querySelectorAll('.task').forEach(function(t) {
+    t.onclick = function() {
+        var w = document.getElementById(t.dataset.target);
+        if (w) { 
+            w.style.display = 'block'; 
+            front(w); 
+            makeActive(w);
+            
+            var rect = w.getBoundingClientRect();
+            if (rect.left < -50 || rect.right > window.innerWidth + 50 || rect.top < 0 || rect.bottom > window.innerHeight) {
+                var cx = Math.max(0, (window.innerWidth - w.offsetWidth) / 2);
+                var cy = Math.max(0, (window.innerHeight - w.offsetHeight) / 2 - 20);
+                w.style.left = cx + 'px';
+                w.style.top = cy + 'px';
+                w.style.transform = 'none';
+            }
+        }
+    };
+});
+var sBtn = document.getElementById('start-button');
+var sMenu = document.getElementById('start-menu');
+sBtn.onclick = function(e) {
+    e.stopPropagation();
+    sMenu.style.display = sMenu.style.display === 'block' ? 'none' : 'block';
+};
+document.addEventListener('click', function() { sMenu.style.display = 'none'; });
+
+document.querySelectorAll('.start-item').forEach(function(item) {
+    item.addEventListener('click', function() {
+        if (item.dataset.link) window.open(item.dataset.link, '_blank');
+    });
+});
+
+document.getElementById('about-trigger').onclick = function(e) {
+    e.stopPropagation();
+    alert(
+        'SUBJECT_IDENT: Owie Emmanuel\n' +
+        'AGE: ' + getAge() + '\n' +
+        'ZODIAC: Capricorn\n' +
+        'PRONOUNS: he/him\n' +
+        'LOCATION: Benin City, Nigeria\n' +
+        'ROLE: Software Engineer'
+    );
+};
+
+(function() {
+    var coins = 31;
+    var belly = 2;
+    var logEl = document.getElementById('gp-log');
+    var coinsEl = document.getElementById('gp-coins');
+    var bellyEl = document.getElementById('gp-belly');
+    var spriteEl = document.getElementById('gp-sprite');
+
+    function renderBelly() {
+        var b = '';
+        for(var i=0; i<belly; i++) b += '🍖';
+        bellyEl.innerText = b || 'Empty...';
+    }
+
+    function logMsg(msg) {
+        var div = document.createElement('div');
+        div.innerText = msg;
+        logEl.appendChild(div);
+        logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    function anim() {
+        spriteEl.style.transform = 'translateY(-8px) scale(1.1)';
+        setTimeout(function() { spriteEl.style.transform = 'none'; }, 150);
+    }
+
+    window.feedPet = function(food) {
+        if (coins >= 5) {
+            coins -= 5;
+            if (belly < 5) belly++;
+            coinsEl.innerText = coins;
+            renderBelly();
+            logMsg('bob: YUM! ' + food + ' IS DELICIOUS!');
+            anim();
+        } else {
+            logMsg('system: Not enough coins (5c).');
+        }
+    };
+
+    window.interactPet = function(action) {
+        anim();
+        if (action === 'hello') {
+            logMsg('bob: HELLO HUMAN!');
+        } else if (action === 'wash') {
+            if (coins >= 10) {
+                coins -= 10;
+                coinsEl.innerText = coins;
+                logMsg('bob: SO FRESH AND SO CLEAN!');
+            } else {
+                logMsg('system: Not enough coins (10c).');
+            }
+        } else if (action === 'poke') {
+            logMsg('bob: HEHE STOP THAT!');
+            coins++;
+            coinsEl.innerText = coins;
+        }
+    };
+})();
+
+function tick() {
+    var el = document.getElementById('clock');
+    if (el) el.innerText = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+setInterval(tick, 1000); tick();
+
+document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+
+document.addEventListener('dragstart', function(e) { e.preventDefault(); });
+
+document.addEventListener('copy', function(e) {
+    e.clipboardData.setData('text/plain', '[[ DATA REDACTED: LEVEL 7 CLEARANCE REQUIRED ]]');
+    e.preventDefault();
+});
+document.addEventListener('keydown', function(e) {
+    if (
+        e.keyCode === 123 ||
+        (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) ||
+        (e.ctrlKey && [85, 83, 67, 65, 80].indexOf(e.keyCode) !== -1)
+    ) {
+        e.preventDefault();
+    }
+    if (
+        e.keyCode === 44 ||
+        (e.shiftKey && e.metaKey && e.keyCode === 83) ||
+        (e.ctrlKey && e.shiftKey && e.keyCode === 83) ||
+        (e.altKey && e.keyCode === 44) ||
+        (e.metaKey && e.keyCode === 44)
+    ) {
+        if (document.getElementById('desktop').style.display === 'block') {
+            document.body.classList.add('locked');
+            if (navigator.clipboard) navigator.clipboard.writeText('DATA_REDACTED');
+        }
+    }
+});
+document.addEventListener('mousemove', function(e) {
+    document.documentElement.style.setProperty('--mx', e.clientX + 'px');
+    document.documentElement.style.setProperty('--my', e.clientY + 'px');
+});
+
+window.addEventListener('blur', function() {
+    if (document.getElementById('desktop').style.display !== 'block') return;
+    document.body.classList.add('locked');
+});
+</script>
+
+</body>
+</html>
