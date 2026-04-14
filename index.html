@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Hey if you are reading this, you are probably not supposed
-    to be here or you are a wanna be hacker kid tryna look at my code,
-    well i was gonna obfuscate my code buh meh since you made it, it's
-    alr i guess: so hre are some easter eggs i guess, well for starters
-    the website focuses on me being Extraterrestrial cos i am ofc and so
-    coded this website took like 6 or 7 days (tht is prolly gonn age badly)
-    anyway, my point is it took some time to mke... waitt wtf am i even yapping
-    no one is prolly gonna see ts anyways mehhh- anyways bye now i ran out of
-    shi to say.. oh yh i was gonna say the easter egg well.. the website self
-    updates every year on my birthday which is on the 24th of december so yh
-    .holy yapppp ok i'm done now
-
-    -Owie out -->
-
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>CLASSIFIED ALIEN DATABASE — SUBJECT: OWIE</title>
-    <link rel="icon" href="alien.png" type="image/png">
+    <link rel="icon" href="./alien.png" type="image/png">
+    <link rel="shortcut icon" href="./alien.png" type="image/png">
+    <link rel="apple-touch-icon" href="./alien.png">
+    
     <link rel="stylesheet" href="https://unpkg.com/98.css">
     <style>
 body {
@@ -177,12 +166,13 @@ body.desktop-active.dragging, body.desktop-active.dragging * {
     animation: activeTitleGlow 3s ease-in-out infinite;
 }
 
-#win1 { width: 500px; top: 80px; left: 40%; transform: translateX(-60%); z-index: 1; }
-#win2 { width: 300px; top: 10px; left: 60%; z-index: 4; }
-#win3 { width: 280px; top: 100px; left: 65%; transform: translateX(-20%); z-index: 2; }
-#win4 { width: 400px; top: 220px; left: 75%; transform: translateX(-20%); z-index: 2; padding: 10px; }
-#win5 { width: 350px; top: 150px; left: 13%; transform: translateX(-50%); z-index: 5; }
-#win6 { width: 350px; top: 100px; left: 85%; transform: translateX(-50%); z-index: 5; }
+/* Organized Desktop Spawning Logic */
+#win1 { width: 450px; top: 5vh; left: 4vw; z-index: 1; }
+#win2 { width: 300px; top: 8vh; left: 30vw; z-index: 4; }
+#win3 { width: 280px; top: 12vh; left: 55vw; z-index: 2; }
+#win4 { width: 400px; top: 50vh; left: 8vw; z-index: 2; padding: 10px; }
+#win5 { width: 350px; top: 55vh; left: 35vw; z-index: 5; }
+#win6 { width: 320px; top: 45vh; left: 58vw; z-index: 5; }
 
 #hack-menu {
   position: absolute;
@@ -571,16 +561,18 @@ body.locked #security-overlay {
     background: #001108;
 }
 
+    /* Organized Mobile Spawning Logic */
     @media screen and (max-width: 768px) {
         #win1, #win2, #win3, #win4, #win5, #win6 {
             transform: translateX(-50%);
+            left: 50%;
         }
-        #win5 { left: 42%; top: 20px; height: auto; }
-        #win6 { left: 58%; top: 50px; }
-        #win3 { left: 45%; top: 80px; }
-        #win4 { left: 55%; top: 110px; }
-        #win2 { left: 48%; top: 140px; }
-        #win1 { left: 50%; top: 170px; }
+        #win6 { top: 20px; }
+        #win5 { top: 60px; height: auto; }
+        #win4 { top: 100px; }
+        #win3 { top: 140px; }
+        #win2 { top: 180px; }
+        #win1 { top: 220px; }
 
         #taskbar { 
             overflow-x: auto; 
@@ -606,7 +598,7 @@ body.locked #security-overlay {
 </head>
 <body oncontextmenu="return false;">
 <div id="hack-menu">
-    <span class="hack-btn" onclick="triggerAutoHack()">&#9654; AUTO-HACK (PLAY)</span>
+    <span class="hack-btn" onclick="triggerAutoHack()">▶ AUTO-HACK (PLAY)</span>
     <span id="hack-divider" style="margin: 0 15px; opacity: 0.5;">||</span>
     <span id="manual-hack-btn" class="hack-btn" style="cursor:default; border-style:dashed; background:transparent; color:#00ff9c;">TYPE ANY KEY TO MANUAL HACK</span>
 </div>
@@ -636,7 +628,7 @@ body.locked #security-overlay {
             <img class="main-image" src="main.png" alt="Subject Profile">
             <p>Subject Name: <b>owie</b></p>
             <p>Species: <b>Extraterrestrial</b></p>
-            <p>Threat Rating: <b><span class="threat">&#9608;&#9608;&#9608; UNKNOWN — CRITICAL</span></b></p>
+            <p>Threat Rating: <b><span class="threat">███ UNKNOWN — CRITICAL</span></b></p>
         </div>
     </div>
     <div class="window" id="win2">
@@ -651,7 +643,7 @@ body.locked #security-overlay {
             <p>Territory: <b>Nigeria</b></p>
             <p>Origin: <b>Benin City</b></p>
             <p>MINDSET: <b>INTJ — Architect</b></p>
-            <p><b>AKA:</b> nuel &bull; owie.exists &bull; nuel.exists &bull; nuelgoeshard &bull; <span class="redacted" title="Hover to decrypt">Itz6789Playz</span></p>
+            <p><b>AKA:</b> nuel • owie.exists • nuel.exists • nuelgoeshard • <span class="redacted" title="Hover to decrypt">Itz6789Playz</span></p>
             <hr>
             <p>OBSERVATIONS:</p>
             <ul>
@@ -670,17 +662,17 @@ body.locked #security-overlay {
             <div class="title-bar-controls"><button aria-label="Close"></button></div>
         </div>
         <div class="window-body">
-            <h3>&gt;&gt;&gt; PERSONAL INTERESTS LOGGED</h3>
-            <p>&#8212; Entertainment: Sustained Deep-Logic Syntax Synthesis &amp; Kernel Optimization.</p>
-            <p>&#8212; Audio Stimulation:&nbsp;
+            <h3>>>> PERSONAL INTERESTS LOGGED</h3>
+            <p>— Entertainment: Sustained Deep-Logic Syntax Synthesis & Kernel Optimization.</p>
+            <p>— Audio Stimulation: 
                 <a href="https://open.spotify.com/playlist/1aT9dvTt6jFJU29d1Mzhh8?si=3eef3e79553143bc"
                    target="_blank" rel="noopener" class="ultra-link">
                     <svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
                     ULTRA+
                 </a>
             </p>
-            <p>&#8212; Rest Protocol: Systematic Hibernation (Sleeping).</p>
-            <p>&#8212; Creative Output: Logic-branching (Coding), Data-Input (Reading), Existing.</p>
+            <p>— Rest Protocol: Systematic Hibernation (Sleeping).</p>
+            <p>— Creative Output: Logic-branching (Coding), Data-Input (Reading), Existing.</p>
             <hr>
             <p style="font-size:12px;font-style:italic;opacity:0.8;">Subject demonstrates anomalous cognitive throughput in digital architectures, characterized by a preference for non-standard UI/UX paradigms and high-latency social interaction.</p>
         </div>
@@ -751,7 +743,6 @@ body.locked #security-overlay {
         <div class="window-body" style="padding:6px;">
             <div class="blinkies">
                 <img src="https://renwu.neocities.org/aliens-iy.gif" alt="">
-                <img src="https://renwu.neocities.org/bi-3h.gif" alt="">
                 <img src="https://renwu.neocities.org/alpha.gif" alt="">
                 <img src="https://renwu.neocities.org/cool alien.gif" alt="">
                 <img src="https://renwu.neocities.org/a11.gif" alt="">
@@ -762,7 +753,7 @@ body.locked #security-overlay {
         </div>
     </div>
     <div id="taskbar">
-        <div id="start-button">&#9733; START</div>
+        <div id="start-button">★ START</div>
         <div class="task" data-target="win1">info.sys</div>
         <div class="task" data-target="win2">bio_scan</div>
         <div class="task" data-target="win3">more_info</div>
@@ -772,7 +763,7 @@ body.locked #security-overlay {
         <div id="clock">00:00</div>
     </div>
     <div id="start-menu">
-        <div id="start-menu-header">&#9608; CLASSIFIED LINKS</div>
+        <div id="start-menu-header">█ CLASSIFIED LINKS</div>
         <div class="start-item" data-link="https://discord.com/users/1366875256471687323">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px;"><path d="M20.3 4.3C18.8 3.6 17.1 3.1 15.4 3c-.2.4-.4.8-.6 1.2-1.8-.3-3.7-.3-5.5 0-.2-.4-.4-.8-.6-1.2-1.7.1-3.4.6-4.9 1.3-3.1 4.6-4 9.1-3.5 13.5 2.1 1.5 4.1 2.5 6.1 3.1.5-.7 1-1.4 1.3-2.2-2.1-.8-4.1-1.9-5.9-3.3.1.1.2.2.4.3 4.1 1.9 8.7 1.9 12.8 0 .1-.1.3-.2.4-.3-1.8 1.4-3.8 2.5-5.9 3.3.4.8.8 1.5 1.3 2.2 2-.6 3.9-1.6 6.1-3.1.6-5.1-.9-9.6-3.7-13.5zm-11.4 10.7c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm7.6 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></svg>
             Discord
@@ -858,7 +849,7 @@ function typeNext() {
 
 function renderTerminal() {
     var display = currentText.replace('CAUTION', '<span class="threat">CAUTION</span>');
-    term.innerHTML = display + '<span class="blink-cursor">&#9608;</span>';
+    term.innerHTML = display + '<span class="blink-cursor">█</span>';
     term.scrollTop = term.scrollHeight;
 }
 
@@ -935,7 +926,7 @@ window.addEventListener('keydown', function(e) {
     }
 });
 
-term.innerHTML = '<span class="blink-cursor">&#9608;</span>';
+term.innerHTML = '<span class="blink-cursor">█</span>';
 var isMobileOrTouch = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 if (isMobileOrTouch) {
     var hm = document.getElementById('hack-menu');
