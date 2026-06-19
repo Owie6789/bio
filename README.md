@@ -24,15 +24,9 @@ Welcome to the **Classified Alien Database — Subject: Owie**. This project is 
 * **CSS3:** Custom animations, scanline effects, and retro styling (leveraging `98.css` for classic window aesthetics).
 * **Vanilla JavaScript:** DOM manipulation, window dragging logic, clock, and virtual pet state management—no external frameworks required.
 
-## 💻 Local Setup
+## Preview 🥓
 
-No build tools or package managers are needed. 
-1. Clone the repository or download the source code.
-2. Double-click `index.html` to open it in your preferred web browser.
-
-## ⚠️ Disclaimer
-
-*This project includes simulated "malicious" aesthetic behaviors (like locking the screen on certain key presses or overriding the clipboard with redacted text) strictly for immersive storytelling and artistic purposes. It is entirely harmless and contains no actual malware or tracking.*
+> [owie.neocities.org](owie.neocities.org)
 
 ---
 *Subject Status: Extraterrestrial | Threat Level: Unknown*
