@@ -2,8 +2,7 @@
 A Fun Interactive and Retro Site, All About Me!
 This was so fun to make, alr bye
 
-# 👽 Classified Alien Database
-
+## <img src="alien.png" width="25" height="25" alt="Alien" style="vertical-align: middle; margin-right: 5px;"> Classified Alien Database   
 > An interactive, retro-OS themed personal website and portfolio simulating a classified database breach.
 
 ## 🚀 Overview
